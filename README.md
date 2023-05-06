@@ -4,9 +4,7 @@ The purpose of this project was to analyze my city's school district in order to
 <img width="120" src = https://user-images.githubusercontent.com/107348074/236379825-80dc02bc-46c1-46fa-9634-dc28cdcb5704.png>
                        
 ## Summary of Dataset
-You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your task is to aggregate the data to showcase obvious trends in school performance.
-I then generated all of the tables and figures needed for the technical report of the clinical study as well as provided a top-level summary of the study results.
-There are two sets of data are used for this project. One of the the datasets shows the student details including grades while the other data set houses the schools and budget information. The data used in this analysis were simulated for the purpose of this project.
+There are two sets of data are used for this project. One of the the datasets showed the student details including Math and Reading grades while the other data set contained the schools and budget information. The data used in this analysis were simulated for the purpose of this project.
 ## Project Steps
 ### Step 1: Merging both data sets 
 The first step following series of other steps was to load both data sets and then using a left join from pandas merge both data sets on school name. 
@@ -51,7 +49,7 @@ As a next step, I created a high level snapshot (in table form) of the district 
   - % Overall Passing (The percentage of students that passed math and reading)
 
 ### Step 3: Binning
-To establish a relationship between school performance and average spending ranges (per student) and school size (small, medium, large) with the use 4 reasonable bins to group school spending. The Pandas function cut makes this easy to implement.  
+To establish a relationship between school performance and average spending ranges (per student) and school size (small, medium, large) with the use 4 reasonable bins to group school spending. The Pandas function cut makes this easy to achieve.  
 - #### Scores by school spending
   
   Establish the bins 
