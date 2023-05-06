@@ -73,7 +73,7 @@ To establish a relationship between school performance and average spending rang
       per_school_summary["School Size"] = pd.cut(per_school_summary["Total Students"], bins=size_bins,labels=labels)
 
 
-## Summary of Results
+## Summary of analysis
 
 * As a whole, schools with higher budgets, did not yield better test results. By contrast, schools with higher spending 645-675 per student actually underperformed compared to schools with smaller budgets (585 per student).
 
