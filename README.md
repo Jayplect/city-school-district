@@ -1,4 +1,4 @@
-## Desciption
+## Description
 The purpose of this project was to analyze my city's school district in order to help the school board and mayor make strategic decisions regarding future school budgets and priorities. To achive this, I created and manipulated Pandas DataFrames to analyze the school and standardized test data.
 ## Dependencies used
 <img width="120" src = https://user-images.githubusercontent.com/107348074/236379825-80dc02bc-46c1-46fa-9634-dc28cdcb5704.png>
